@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+body{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(251, 250, 246, 0.707);
+}
+.tribute{
+    display: inline;
+    padding-bottom:7px;
+    border-bottom: 3.2px solid black;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+    
+}
+.flex2{
+    width:75%;
+    border-radius: 20px;
+    height:75vh;
+    background-color: rgb(200, 201, 188);
+}
+img{
+    object-fit: contain;
+}
+#timeline{
+    margin:0;
+}
+#box{
+    background-color:rgb(255, 244, 231);
+    margin-top: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 7px -2px;
+
+  
+}
+.timeline {
+    background: linen;
+    margin: 0 auto;
+    text-align:left;
+
+}
+
+.timeline h2 {
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.timeline ul {
+    padding: 0 150px;
+}
+
+.timeline li {
+    list-style-type: none;
+    padding: 30px 50px;
+    border-left: 3px solid gold;
+    position: relative;
+    font-size: 18px;
+    color: #0a100d;
+}
+
+.timeline li::before{
+    content: "🏵️";
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background: gold;
+    position: absolute;
+    top: 38%;
+    left: -11px;
+}
+/* .timeline li::after{ */
+    /* content: "🏵️"; */
+    /* height: 20px; */
+    /* width: 20px; */
+    /* border-radius: 10px; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items:center; */
+    /* background: gold; */
+    /* position: absolute; */
+    /* top: 38%; */
+    /* right:0; */
+/*      */
+/* } */
+blockquote{
+    width:60%;
+}
+.quote{
+    height:50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.quote-text{
+    font-size: 1.6rem;
+    font-weight: 600;
+
+}
+footer{
+    background-color:rgb(255, 244, 231);
+    display:block;
+    text-align:center;
+    color:black;
+    padding:10px;
+    padding-bottom:15px;
+
+
+}
+a{
+    color:black;  
+}
+@media (min-width: 219px) and (max-width: 600px) {
+    .container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:10px;
+        
+    }
+
+}
